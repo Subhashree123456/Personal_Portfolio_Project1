@@ -1,0 +1,111 @@
+/* This styles the entire body of the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* This centers the content within a container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* This styles the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* This styles the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* This styles each navigation item */
+nav ul li {
+    margin: 0 1rem;
+}
+
+/* This styles the navigation links */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* This styles the hero section */
+#hero {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* This styles the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Additional styles for about, portfolio, and contact pages */
+#about, #portfolio, #contact {
+    padding: 2rem 0;
+}
+
+/* This styles the profile image in the about section */
+#about img {
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/* This styles the list in the portfolio section */
+#portfolio ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* This styles each portfolio item */
+#portfolio ul li {
+    background-color: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* This styles the contact form */
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* This styles the labels in the contact form */
+#contact form label {
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+/* This styles the input fields and textarea in the contact form */
+#contact form input, #contact form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* This styles the submit button in the contact form */
+#contact form button {
+    padding: 0.7rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
