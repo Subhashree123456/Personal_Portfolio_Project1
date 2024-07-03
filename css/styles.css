@@ -5,15 +5,85 @@ body {
     padding: 0;
 }
 
-/* This centers the content within a container */
+/* This centers the content within a container 
 .container {
     width: 80%;
     margin: 0 auto;
+}*/
+
+
+/* Additional styles for about, portfolio, and contact pages */
+#about, #portfolio, #contact {
+    padding: 2rem 0;
 }
+
+#about img {
+    border-radius: 50%; /* Makes the image circular */
+    margin-top: 1rem;
+    width: 200px; /* Adjusts the width of the image */
+    height: 200px; /* Ensures the image is a perfect circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    border: 3px solid #333; /* Adds a border around the image */
+}
+
+#portfolio ul {
+    list-style: none;
+    padding: 0;
+}
+
+#portfolio ul li {
+    background-color: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+#contact form input, #contact form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#contact form button {
+    padding: 0.7rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* New styles for the Home section */
+#hero {
+    background-color: #e0f7fa; /* Change this color to your desired background color */
+}
+
+/* Add styles for the profile picture */
+.profile-pic {
+    border-radius: 50%; /* Makes the image circular */
+    margin-top: 1rem;
+    width: 150px; /* Adjusts the width of the image */
+    height: 150px; /* Ensures the image is a perfect circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    border: 3px solid #333; /* Adds a border around the image */
+}
+
 
 /* This styles the header section */
 header {
-    background-color: #333;
+    background-color: blueviolet;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -29,7 +99,7 @@ nav ul {
 
 /* This styles each navigation item */
 nav ul li {
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 /* This styles the navigation links */
@@ -47,7 +117,7 @@ nav ul li a {
 
 /* This styles the footer section */
 footer {
-    background-color: #333;
+    background-color: blueviolet;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -109,3 +179,11 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
